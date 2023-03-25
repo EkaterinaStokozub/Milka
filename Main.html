@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Milka</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="Photo/Ellipse 4.png" type="image/x-icon">
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+            
+            <script type="text/javascript">
+            $(function() {
+            $(window).scroll(function() {
+            if($(this).scrollTop() != 0) {
+            $('#topNubex').fadeIn();
+            } else {
+            $('#topNubex').fadeOut();
+            }
+            });
+            $('#topNubex').click(function() {
+            $('body,html').animate({scrollTop:0},700);
+            });
+            });
+            </script>
+    </head>
+    <body>
+        <header>
+            <a href="Main.html"><img src="Photo/Ellipse 1.png"></a>
+            <div class="head_buttons">
+            <button class="press" type="button" onClick="javascript:window.location.href='Story.html';">История</button>
+            <button type="button" onClick="javascript:window.location.href='Katalog.html';">Каталог</button>
+            </div>
+        </header>
+        <div id="topNubex"></div>
+        <div class="text">
+        <h1>Вкуснее, когда нежнее</h1></div>
+        <div class="video">
+        <video autoplay="autoplay" loop="loop" controls="controls" tabindex="0" muted="true" width="60%" height="40%" poster="Photo/getImage.jpg">
+            <source src="milka-nejnost-vnutri_(VIDEOMIN.ORG).mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+            <source src="milka-nejnost-vnutri_(VIDEOMIN.ORG).webm" type='video/webm; codecs="vp8, vorbis"' />
+            <source src="milka-nejnost-vnutri_(VIDEOMIN.ORG).ogv" type='video/ogg; codecs="theora, vorbis"' />
+        </video></div>
+        <div class="discription">
+            <img src="Photo/image 14.png">
+            <p>Сегодня Milka – одна из распространенных марок шоколада в Европе. C 2004 года Milka продается и на российском рынке. 
+                Шоколад легко узнать на витрине по лиловой упаковке и симпатичной корове на ней, которая стала символом торговой 
+                марки в 1972 году. Ведь нежный молочный шоколад под лиловой упаковкой может помочь каждому выразить свои самые теплые 
+                чувства без слов!</p>
+        </div>
+        <img src="Photo/photo1.png" class="alone">
+        <div class="join_us">
+            <p>Присоединяйся!</p>
+            <form class="One"action="https://www.youtube.com/channel/UCPew0TUk0bCzOuQSqtruHzQ" target="_blank">
+            <button class="goOne"></button>
+            </form>
+            <form class="Two" action="https://vk.com/milka" target="_blank">
+            <button class="goTwo"></button>
+            </form>
+        </div>
+        <img src="Photo/Group 10.png" class="foot_image">
+        <footer>
+            <p>ООО «Мон’Дэлис Русь». Часть группы компаний Mondelēz International Все права защищены.</p>
+            <img class="last_img" src="Photo/image 5.png">
+        </footer>
+    </body>
+</html>

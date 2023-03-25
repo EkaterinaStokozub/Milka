@@ -1,0 +1,113 @@
+body {
+    background-color: #E4D6F8;
+    text-align: center;
+}
+
+header {
+    background-color: #A27EB8;
+    min-width: 100%;
+    vertical-align: center;
+}
+
+.table {
+    color: #1E0039;
+    margin: auto;
+    font-family: 'Trebuchet MS';
+    width: 70%;
+}
+
+table {
+    border: 0px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px auto;
+    border-spacing: 40px;
+}
+
+td {
+    width: 150px;
+    height: 300px;
+    padding: 20px;
+    background-color: #C7BFF3;
+}
+
+td:hover { 
+    background-color: #AAA2D8; 
+}
+
+.foot_image {
+    width: 100%;
+}
+
+.join_us {
+    color: #1E0039;
+}
+
+.name {
+    color: #1E0039;
+    font-family: 'Comic Sans MS';
+    font-size: 30px;
+    font-style: semibold;
+}
+
+.chocolate img {
+    width: 90px;
+    height: 190px;
+}
+
+.big_chocolate img {
+    width: 150px;
+    height: 80px;
+}
+
+.baton img {
+    height: 50px;
+}
+
+.chocolate_candy img {
+    height: 160px;
+}
+
+.classic_cookie img {
+    height: 80px;
+}
+
+.cookie img {
+    height: 80px;
+}
+
+.bisquits img {
+    height: 100px;
+}
+
+.mini_1 {
+    height: 130px;
+    width: 120px;
+}
+
+.mini_2 {
+    height: 120px;
+    width: 120px;
+}
+
+.mini_3 {
+    height: 130px;
+}
+
+.pasta img {
+    height: 150px;
+    width: 100px;
+}
+
+footer {
+    background-color: #A27EB8;
+    display: flex;
+    color: white;
+    font-size: 13px;
+}
+
+footer img {
+    text-align: right;
+    width: 50px;
+    height: 30px;
+}

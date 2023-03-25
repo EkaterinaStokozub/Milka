@@ -1,0 +1,106 @@
+header button, .buy {
+    min-width: 80px;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    border-radius: 15px;
+    background: #604D9E;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+.head_buttons {
+    display: flex;
+}
+
+.tovar {
+    width: 40%;
+    font-size: 18px;
+    font-weight: semibold;
+    margin-bottom: 200px;
+    margin-left: 30%;
+  }
+
+.verh {
+    background: url(/Photo/image\ 62.png);
+    position: absolute;
+    top: 130px;
+    left: 80px;
+    width: 50px;
+    height: 50px;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+header button:hover, .buy:hover {
+    background: #40326B;
+  }
+  
+header button:focus, .buy:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #40326B;
+    background: transparent;
+    color: white;
+    border-color: #4676d7;
+  }
+
+body {
+    color: #1E0039;
+    font-family: 'Trebuchet MS';
+    background: url(/Photo/1644378930_1-adonius-club-p-milka-fon-1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+  }
+
+.main_photo {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+.information {
+    display: grid;
+    margin-left: 15%;
+    grid-template-areas:
+    "A A A A   C C C C"
+    "B B B B   D D D D"
+    "B B B B   D D D D";
+    margin-bottom: 150px;
+    width: 70%;
+}
+
+.sost {
+    grid-area: A;
+    justify-self: center;
+    margin-right: 50px;
+}    
+
+.information p {
+    grid-area: B;
+    justify-self: center;
+    margin-right: 50px;
+}
+
+.desk {
+    grid-area: C;
+    justify-self: center;
+}
+
+table {
+    grid-area: D;
+    justify-self: center;
+  }
+
+.buy {
+    margin-bottom: 200px;
+  }
