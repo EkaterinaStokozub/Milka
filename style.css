@@ -24,7 +24,7 @@ header a {
     margin-right: 65%;
 }
 
-#topNubex {
+.topNubex {
     background: url(/Milka/Photo/Component.png);
     position: fixed;
     width: 50px;
@@ -35,7 +35,7 @@ header a {
     display: none;
    }
 
-#topNubex:hover {
+.topNubex:hover {
     background-position: 0 -70px;
     position: fixed;
     width: 50px;
