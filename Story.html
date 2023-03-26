@@ -12,12 +12,12 @@
             $(function() {
             $(window).scroll(function() {
             if($(this).scrollTop() != 0) {
-            $('#topNubex').fadeIn();
+            $('topNubex').fadeIn();
             } else {
-            $('#topNubex').fadeOut();
+            $('topNubex').fadeOut();
             }
             });
-            $('#topNubex').click(function() {
+            $('topNubex').click(function() {
             $('body,html').animate({scrollTop:0},700);
             });
             });
@@ -30,7 +30,7 @@
             <button type="button" onClick="javascript:window.location.href='Katalog.html';">Каталог</button>
             </div>
         </header>
-        <div id="topNubex"></div>
+        <div class="topNubex"></div>
         <h1>История создания шоколада Milka</h1>
         <p class="texts">Сегодня Milka – одна из распространенных марок шоколада в Европе. C 2004 года Milka продается и на российском рынке.
              Шоколад легко узнать на витрине по лиловой упаковке и симпатичной корове на ней, которая стала символом торговой марки 
