@@ -24,7 +24,7 @@ header button, .buy {
   }
 
 .verh {
-    background: url(/Photo/image\ 62.png);
+    background: url(/Milka/Photo/image\ 62.png);
     position: absolute;
     top: 130px;
     left: 80px;
@@ -54,7 +54,7 @@ header button:focus, .buy:focus {
 body {
     color: #1E0039;
     font-family: 'Trebuchet MS';
-    background: url(/Photo/1644378930_1-adonius-club-p-milka-fon-1.jpg) no-repeat center center fixed;
+    background: url(/Milka/Photo/1644378930_1-adonius-club-p-milka-fon-1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
