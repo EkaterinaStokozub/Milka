@@ -11,12 +11,12 @@
             $(function() {
             $(window).scroll(function() {
             if($(this).scrollTop() != 0) {
-            $('#topNubex').fadeIn();
+            $('.topNubex').fadeIn();
             } else {
-            $('#topNubex').fadeOut();
+            $('.topNubex').fadeOut();
             }
             });
-            $('#topNubex').click(function() {
+            $('.topNubex').click(function() {
             $('body,html').animate({scrollTop:0},700);
             });
             });
@@ -30,7 +30,7 @@
             <button type="button" onClick="javascript:window.location.href='Katalog.html';">Каталог</button>
             </div>
         </header>
-        <div id="topNubex"></div>
+        <div class="topNubex"></div>
         <div class="text">
         <h1>Вкуснее, когда нежнее</h1></div>
         <div class="video">
