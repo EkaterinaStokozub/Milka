@@ -1,4 +1,4 @@
-header button, .buy {
+.buy {
     min-width: 80px;
     font-family: inherit;
     appearance: none;
@@ -10,10 +10,6 @@ header button, .buy {
     font-size: 1rem;
     cursor: pointer;
   }
-
-.head_buttons {
-    display: flex;
-}
 
 .tovar {
     width: 40%;
