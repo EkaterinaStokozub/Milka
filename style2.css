@@ -1,3 +1,179 @@
+@media(min-device-width:600px) {
+    table .min {
+      display:none;
+    }
+    
+    .table {
+    color: #1E0039;
+    margin: auto;
+    font-family: 'Trebuchet MS';
+    width: 70%;
+    }
+
+    table {
+    border: 0px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px auto;
+    border-spacing: 40px;
+    }
+
+    td {
+    width: 150px;
+    height: 300px;
+    padding: 20px;
+    background-color: #C7BFF3;
+    }
+
+    td:hover { 
+    background-color: #AAA2D8; 
+    }
+    
+    .name {
+    color: #1E0039;
+    font-family: 'Comic Sans MS';
+    font-size: 30px;
+    font-style: semibold;
+    }
+
+    .chocolate img {
+    width: 90px;
+    height: 190px;
+    }
+
+    .big_chocolate img {
+    width: 150px;
+    height: 80px;
+    }
+
+    .baton img {
+    height: 50px;
+    }
+
+    .chocolate_candy img {
+    height: 160px;
+    }
+
+    .classic_cookie img {
+    height: 80px;
+    }
+
+    .cookie img {
+    height: 80px;
+    }
+
+    .bisquits img {
+    height: 100px;
+    }
+
+    .mini_1 {
+    height: 130px;
+    width: 120px;
+    }
+
+    .mini_2 {
+    height: 120px;
+    width: 120px;
+    }
+
+    .mini_3 {
+    height: 130px;
+    }
+
+    .pasta img {
+    height: 150px;
+    width: 100px;
+    }
+} 
+  
+@media(max-device-width:600px) {
+    table .max {
+      display:none;
+    }
+        
+    .table {
+    color: #1E0039;
+    margin: auto;
+    font-family: 'Trebuchet MS';
+    width: 70%;
+    }
+
+    table {
+    border: 0px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px auto;
+    border-spacing: 40px;
+    }
+
+    td {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    background-color: #C7BFF3;
+    }
+
+    td:hover { 
+    background-color: #AAA2D8; 
+    }
+    
+    .name {
+    color: #1E0039;
+    font-family: 'Comic Sans MS';
+    font-size: 60px;
+    font-style: semibold;
+    }
+
+    .chocolate img {
+    width: 180px;
+    height: 380px;
+    }
+
+    .big_chocolate img {
+    width: 300px;
+    height: 160px;
+    }
+
+    .baton img {
+    height: 100px;
+    }
+
+    .chocolate_candy img {
+    height: 320px;
+    }
+
+    .classic_cookie img {
+    height: 160px;
+    }
+
+    .cookie img {
+    height: 160px;
+    }
+
+    .bisquits img {
+    height: 200px;
+    }
+
+    .mini_1 {
+    height: 260px;
+    width: 240px;
+    }
+
+    .mini_2 {
+    height: 240px;
+    width: 240px;
+    }
+
+    .mini_3 {
+    height: 260px;
+    }
+
+    .pasta img {
+    height: 300px;
+    width: 200px;
+    }
+}
+
 body {
     background-color: #E4D6F8;
     text-align: center;
@@ -13,94 +189,12 @@ header {
     padding-top: 150px;
 }
 
-.table {
-    color: #1E0039;
-    margin: auto;
-    font-family: 'Trebuchet MS';
-    width: 70%;
-}
-
-table {
-    border: 0px;
-    text-align: center;
-    vertical-align: middle;
-    margin: 10px auto;
-    border-spacing: 40px;
-}
-
-td {
-    width: 150px;
-    height: 300px;
-    padding: 20px;
-    background-color: #C7BFF3;
-}
-
-td:hover { 
-    background-color: #AAA2D8; 
-}
-
 .foot_image {
     width: 100%;
 }
 
 .join_us {
     color: #1E0039;
-}
-
-.name {
-    color: #1E0039;
-    font-family: 'Comic Sans MS';
-    font-size: 30px;
-    font-style: semibold;
-}
-
-.chocolate img {
-    width: 90px;
-    height: 190px;
-}
-
-.big_chocolate img {
-    width: 150px;
-    height: 80px;
-}
-
-.baton img {
-    height: 50px;
-}
-
-.chocolate_candy img {
-    height: 160px;
-}
-
-.classic_cookie img {
-    height: 80px;
-}
-
-.cookie img {
-    height: 80px;
-}
-
-.bisquits img {
-    height: 100px;
-}
-
-.mini_1 {
-    height: 130px;
-    width: 120px;
-}
-
-.mini_2 {
-    height: 120px;
-    width: 120px;
-}
-
-.mini_3 {
-    height: 130px;
-}
-
-.pasta img {
-    height: 150px;
-    width: 100px;
 }
 
 footer {
