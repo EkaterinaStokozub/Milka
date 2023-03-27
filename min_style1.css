@@ -1,5 +1,6 @@
 h1 {
     margin-bottom: 60px;
+    font-size: 50px;
 }
 
 .texts {
@@ -8,15 +9,15 @@ h1 {
     margin-left: 10%;
     font-family: 'Trebuchet MS';
     color: #604D9E;
+    font-size: 30px;
 }
 
 header a {
-    margin-right: 70%;
+    margin-right: 60%;
 }
 
 .story {
     width: 80%;
-    height: 600px;
     align-items: center;
     margin-top: 5%;
     margin-bottom: 5%;
