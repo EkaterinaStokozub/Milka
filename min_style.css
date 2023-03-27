@@ -57,7 +57,7 @@ header button {
   }
   
 .press {
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 header button:hover {
@@ -75,8 +75,8 @@ header button:focus {
 h1 {
     color: #1E0039;
     font-family: 'Comic Sans MS';
-    font-weight: 60px;
-    padding-top: 25%;
+    font-weight: 80px;
+    padding-top: 20%;
     padding-bottom: 30px;
 }
 
@@ -95,7 +95,7 @@ video {
     margin-bottom: 100px;
     text-align: center;
     margin-left: 10%;
-    font-weight: 35px;
+    font-weight: 50px;
 }
 
 .discription img {
