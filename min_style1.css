@@ -12,7 +12,7 @@ h1 {
 
 .story {
     width: 80%;
-    height: 300px;
+    height: 600px;
     align-items: center;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -20,7 +20,22 @@ h1 {
     justify-content : center;
     font-family: 'Trebuchet MS';
     color: #604D9E;
-    border-bottom: 1rem solid #604D9E;
+    border-bottom: 0.5rem solid #604D9E;
+    font-size: 30px;
+}
+
+.twice {
+    width: 80%;
+    height: 600px;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    justify-content : center;
+    font-family: 'Trebuchet MS';
+    color: #604D9E;
+    border-bottom: 0.5rem solid #604D9E;
+    font-size: 30px;
 }
 
 .story p {
@@ -28,39 +43,16 @@ h1 {
     margin-right: 7%;
 }
 
+.story img {
+    height: 300px;
+}
+
+.twice img {
+    height: 300px;
+}
+
 .hard {
     height: 300px;
-}
-
-.twice {
-    display: grid;
-    grid-template-areas:
-    "A A A A   C C C C"
-    "B B B B   C C C C";
-    text-align: center;
-    width: 80%;
-    height: 300px;
-    align-items: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    justify-content : center;
-    font-family: 'Trebuchet MS';
-    color: #604D9E;
-}
-
-.first {
-    grid-area: A;
-}    
-
-.second {
-    grid-area: B;
-    justify-self: center;
-}
-
-.third {
-    grid-area: C;
-    justify-self: center;
 }
 
 .join_us {
