@@ -11,8 +11,6 @@ h1 {
 }
 
 .story {
-    display: flex;
-    text-align: center;
     width: 80%;
     height: 300px;
     align-items: center;
@@ -22,6 +20,7 @@ h1 {
     justify-content : center;
     font-family: 'Trebuchet MS';
     color: #604D9E;
+    border-bottom: 1rem solid #604D9E;
 }
 
 .story p {
