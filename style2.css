@@ -9,6 +9,10 @@ header {
     vertical-align: center;
 }
 
+.first {
+    padding-top: 150px;
+}
+
 .table {
     color: #1E0039;
     margin: auto;
