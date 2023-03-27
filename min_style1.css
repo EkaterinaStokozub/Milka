@@ -10,6 +10,10 @@ h1 {
     color: #604D9E;
 }
 
+header a {
+    margin-right: 70%;
+}
+
 .story {
     width: 80%;
     height: 600px;
