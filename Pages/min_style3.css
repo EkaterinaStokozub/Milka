@@ -20,7 +20,7 @@ header button, .buy {
     font-size: 30px;
     font-weight: semibold;
     margin-bottom: 150px;
-    margin-left: 20%;
+    margin-left: 10%;
   }
 
 .verh {
@@ -77,11 +77,13 @@ body {
     font-size: 30px;
     margin-bottom: 70px;
     width: 80%;
+    margin-left: 10%;
   }
 
   .about {
     margin-bottom: 100px;
     width: 80%;
+    margin-left: 10%;
   }
 
 .buy {
@@ -94,5 +96,5 @@ body {
 }
 
 footer {
-    font-size: 8px;
+    font-size: 5px;
 }
