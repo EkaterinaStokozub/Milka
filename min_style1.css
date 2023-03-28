@@ -22,7 +22,6 @@ header a {
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 10%;
-    justify-content : center;
     font-family: 'Trebuchet MS';
     color: #604D9E;
     border-bottom: 0.5rem solid #604D9E;
@@ -31,12 +30,10 @@ header a {
 
 .twice {
     width: 80%;
-    height: 600px;
     align-items: center;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 10%;
-    justify-content : center;
     font-family: 'Trebuchet MS';
     color: #604D9E;
     border-bottom: 0.5rem solid #604D9E;
