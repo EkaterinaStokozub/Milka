@@ -16,7 +16,7 @@ header button, .buy {
 }
 
 .tovar {
-    width: 60%;
+    width: 80%;
     font-size: 30px;
     font-weight: semibold;
     margin-bottom: 150px;
@@ -70,6 +70,7 @@ body {
 
   p {
     font-size: 30px;
+    text-align: center;
   }
 
   table {
@@ -86,6 +87,11 @@ body {
 .buy {
     margin-bottom: 200px;
   }
+
+.information {
+    text-align: center;
+    align-items: center;
+}
 
 footer {
     font-size: 20px;
