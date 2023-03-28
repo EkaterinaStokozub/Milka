@@ -105,6 +105,14 @@ body {
     align-items: center;
 }
 
+.sost {
+    font-weight: 40px;
+}
+
+.desk {
+    font-weight: 40px;
+}
+
 footer {
     background-color: #A27EB8;
     color: white;
