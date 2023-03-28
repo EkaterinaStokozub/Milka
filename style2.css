@@ -110,13 +110,17 @@
 
     td {
     width: 300px;
-    height: 400px;
+    height: 500px;
     padding: 20px;
     background-color: #C7BFF3;
     }
 
     td:hover { 
     background-color: #AAA2D8; 
+    }
+    
+    td p {
+        font-size: 30px;
     }
     
     .name {
@@ -137,23 +141,23 @@
     }
 
     .baton img {
-    height: 100px;
+    height: 140px;
     }
 
     .chocolate_candy img {
-    height: 320px;
+    height: 400px;
     }
 
     .classic_cookie img {
-    height: 160px;
+    height: 200px;
     }
 
     .cookie img {
-    height: 160px;
+    height: 200px;
     }
 
     .bisquits img {
-    height: 200px;
+    height: 240px;
     }
 
     .mini_1 {
@@ -167,7 +171,7 @@
     }
 
     .mini_3 {
-    height: 260px;
+    height: 300px;
     }
 
     .pasta img {
