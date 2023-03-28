@@ -1,6 +1,7 @@
 @media(min-device-width:601px) {
     table .min {
       display:none;
+      visibility: hidden;
     }
     
     .table {
@@ -89,6 +90,7 @@
 @media(max-device-width:600px) {
     table .max {
       display:none;
+      visibility: hidden;
     }
         
     .table {
