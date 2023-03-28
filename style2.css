@@ -1,5 +1,5 @@
 @media(min-device-width:601px) {
-    table .min {
+    .min {
       display:none;
       visibility: hidden;
     }
@@ -88,7 +88,7 @@
 } 
   
 @media(max-device-width:600px) {
-    table .max {
+    .max {
       display:none;
       visibility: hidden;
     }
