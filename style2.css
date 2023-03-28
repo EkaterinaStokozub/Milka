@@ -92,6 +92,10 @@
       display:none;
       visibility: hidden;
     }
+    
+    header a {
+    margin-right: 60%;
+    }
         
     .table {
     color: #1E0039;
